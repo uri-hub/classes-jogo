@@ -13,3 +13,7 @@ class Personagem {
 
 const primeiroPersonagem = new Personagem("Olaf", 43, "Bárbaro", "Humano");
 primeiroPersonagem.atacar("Martelo de Guerra");
+
+const segundoPersonagem = new Personagem("Dandelion", 130, "Mago", "Elfo");
+
+segundoPersonagem.atacar("Invocação dos Guerreiros Tombados");

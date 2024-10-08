@@ -5,4 +5,8 @@ class Personagem {
     this.classe = classe;
     this.etnia = etnia;
   }
+
+  atacar(ataque) {
+    console.log(`O ${this.classe} atacou usando ${ataque}`);
+  }
 }
